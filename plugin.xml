@@ -17,7 +17,7 @@
         <hook type="after_prepare" src="scripts/after-prepare.js" />
         <hook type="before_build" src="scripts/after-prepare.js" />
         <hook type="after_plugin_install" src="scripts/after-prepare.js" />
-        <preference name="ANDROID_SUPPORT_VERSION" default="24.+" />
+        <preference name="ANDROID_SUPPORT_VERSION" default="25.+" />
         <framework src="cordova-android-support-gradle-release.gradle" custom="true" type="gradleReference" />
         <source-file src="properties.gradle" target-dir="cordova-android-support-gradle-release" />
     </platform>
